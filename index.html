@@ -7,22 +7,33 @@
 </head>
 <body>
     <body>
-        <div class="header">
+       
+    <section>
+        <div  class="header">
             <p class="logo">Nates Studio ™</p>
-            <div class="nav">
-                <p>About</p>
-                <p>Careers</p>
-                <p>Other models</p>
+
+            <button class="mobile-nav-toggle" 
+            aria-controls="nav" aria-expanded="false"> 
+            <span></span>
+            </button>
+
+            <div data-visible="false" class="nav" class="active">
+                <p> <a href="#home">Home</a></p>
+                <p> <a href="#home">About</a></p>
+                <p> <a href="#home">Other Models</a></p>
                 <button class="purchase-btn">Purchase</nutton>
             </div>
         </div>
+    </section>
 
+    <section id="home">
         <div class="main">
             <p>Fit for <span class="your">Your</span> Lifestyle.</p>
             <img class="headphones-img" src="./images/headphones.png" alt="">
         </div>
-    </body>
+    </section>
 
+    <section id="about">
         <div class="main2">
             <div class="tech-features">
                 <h2 class="department">Technology and Features</h2>
@@ -38,44 +49,45 @@
                 <h2 class="department">Connectivity and Durability</h2>
                 <p> • Rugged Construction</p>
                 <p>• Water and Sweat Resistance</p>
-                <p>• 48 hour battery life</p>>
+                <p>• 48 hour battery life</p>
             </div>
         </div>
+    </section>
 
+    <section id="other-models">
+            <div class="main3">
+            <p class="browse">Browse our other products</p>
 
-        <div class="main3">
-        <p class="browse">Browse our other products</p>
-
-        <div class="page">
-            <div class="slide">
-                <div class="slide-img">
-                     <img src="./images/smartwatch.png" alt="">
-                </div> 
-                <div class="desc">
-                <p>NateWatch</p>
-                </div> 
-            </div>
-           
-            <div class="slide">
-                <div class="slide-img">
-                    <img src="./images/earbuds.png" alt="">
+            <div class="page">
+                <div class="slide">
+                    <div class="slide-img">
+                        <img src="./images/smartwatch.png" alt="">
+                    </div> 
+                    <div class="desc">
+                    <p>NateWatch</p>
+                    </div> 
                 </div>
-                <div class="desc">
-                    <p>Nate buds</p>
+            
+                <div class="slide">
+                    <div class="slide-img">
+                        <img src="./images/earbuds.png" alt="">
+                    </div>
+                    <div class="desc">
+                        <p>Nate buds</p>
+                    </div>
                 </div>
-            </div>
-           
-            <div class="slide">
-                <div class="slide-img">
-                    <img src="./images/mic.png" alt="">
-                </div>
-                <div class="desc">
-                    <p>Nateophone</p>
+            
+                <div class="slide">
+                    <div class="slide-img">
+                        <img src="./images/mic.png" alt="">
+                    </div>
+                    <div class="desc">
+                        <p>Nateophone</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
+    </section>
 
     <div class="footer">
         <div class="foot">
@@ -87,6 +99,6 @@
         </div>
     </div>
 
-
+    <script src="index.js"></script>
 </body>
 </html>
