@@ -242,13 +242,20 @@ body{
       padding: 0;
     }
 
+    .page-one{
+      height: 100vh;
+      background-color: #000000;
+    }
     .main{
       flex-direction: column ;
       text-align: center;
-
+      margin-top: 50px;
     }
+
+
     .headphones-img{
-      width: 400px;
+      width: 450px;
+      margin-top: 168px;
     }
 
     .main2{
